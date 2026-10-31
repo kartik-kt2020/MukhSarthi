@@ -145,5 +145,23 @@ vite.config.ts.timestamp-*
 # Astro generated types
 .astro/
 
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Model files
+# Ignore large/private model artifacts if appropriate
+
 # Turbo Repo
 .turbo
